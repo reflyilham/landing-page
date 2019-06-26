@@ -1,0 +1,164 @@
+body {
+  font-family : 'Segoe UI';
+}
+
+#header {
+  background: #B0C4C9;
+  color: #ffffff;
+}
+
+#form {
+  margin-top: 400px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  height: 215px;
+  border: 5px solid #ffffff;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #DCE3E4;
+  border-radius: 0px;
+}
+
+.firstRow {
+  height:500px;
+  color: #ffffff;
+  padding: 8%;
+}
+
+.secondRow {
+  padding: 8%;
+}
+
+.thirdRow {
+  color: #000000;
+  padding: 6%;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  padding: 8%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 2px;
+}
+
+.price {
+    list-style-type: none;
+    border: 0.8px solid #B0C4C9;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.price .header {
+    background-color: #B0C4C9;
+    color: white;
+    font-size: 20px;
+}
+
+.price li {
+    border-bottom: 0.8px solid #DCE3E4;
+    padding: 10px;
+    text-align: center;
+}
+
+.price .yel {
+    background-color: #DCE3E4;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.ico {
+  background : #DCE3E4;
+  width : 80px;
+  height: 80px;
+  display: table;
+  margin: 0 auto 25px;
+  border-radius: 50px;
+}
+
+.fa {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.fade-in {
+   animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
